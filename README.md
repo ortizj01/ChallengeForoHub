@@ -87,9 +87,9 @@ foro-api/
 La configuración de la base de datos se encuentra en el archivo `src/main/resources/application.properties`:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/foro_db
-spring.datasource.username='Aqui pones la password de tu bd'
-spring.datasource.password='Aqui pones la password de tu bd'
+spring.datasource.url=jdbc:mysql://localhost:3306/foro_db "Aquí poner el nombre de tu bd y el localhost"
+spring.datasource.username='Aquí pones el user de tu bd'
+spring.datasource.password='Aquí pones la password de tu bd'
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
