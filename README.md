@@ -40,7 +40,7 @@ Las dependencias del proyecto se gestionan con Maven. Aquí tienes una lista de 
 
 ### Estructura del Proyecto
 
-```
+
 foro-api/
 │
 ├── src/
@@ -81,7 +81,6 @@ foro-api/
 │               └── foro/
 │                   └── ForoApiApplicationTests.java
 └── pom.xml
-```
 
 ### Configuración de la Base de Datos
 
